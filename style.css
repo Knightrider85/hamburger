@@ -1,0 +1,40 @@
+:root {
+  --header-height: 5rem;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  background: black;
+  color: white;
+  inset: 0;
+  height: var(--header-height);
+  transition: height 400ms;
+  overflow-y: hidden;
+}
+
+.open {
+  height: 100%;
+}
+
+.upper-section {
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+  height: var(--header-height);
+  gap: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  flex: 1;
+  margin: 0;
+}
+
+main {
+  margin-top: var(--header-height);
+  padding: 1rem;
+}
