@@ -1,0 +1,10 @@
+:root {
+    --headar-height: 5rem;
+}
+
+.uppersection{
+    display: flex;
+    background-color: black;
+    height: 5rem;
+    
+}
